@@ -21,5 +21,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('interview_app.urls')),  # Include your app URLs at the root
+    path('', include('interview_app.urls')),  
 ]
